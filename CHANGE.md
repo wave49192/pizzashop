@@ -11,7 +11,7 @@ The Pizza Shop wants to change the large pizza and topping prices as follows:
 | small       | 120        | 20 Bt.      |
 | medium      | 200        | 25 Bt.      |
 | large       | 300        | 30 Bt.      |
-| jumbo       | 400        | 45 Bt.      |
+| jumbo       | 400        | 35 Bt.      |
 
 How would you implement this change?
 
