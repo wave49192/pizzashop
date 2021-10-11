@@ -11,7 +11,7 @@ The Pizza Shop wants to change the large pizza and topping prices as follows:
 | small       | 120        | 20 Bt.      |
 | medium      | 200        | 25 Bt.      |
 | large       | 300        | 30 Bt.      |
-| jumbo       | 450        | 30 Bt.      |
+| jumbo       | 400        | 45 Bt.      |
 
 How would you implement this change?
 
@@ -27,7 +27,7 @@ class PizzaSize(Enum):
     small = {'base_price': 120, 'topping': 20}
     medium = {'base_price': 200, 'topping': 25}
     large = {'base_price': 300, 'topping': 30}
-    large = {'base_price': 450, 'topping': 40}
+    large = {'base_price': 400, 'topping': 35}
 
     @property
     def price(self):
